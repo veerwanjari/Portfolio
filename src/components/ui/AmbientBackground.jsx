@@ -353,8 +353,8 @@ export default function AmbientBackground() {
         } else if (isRotatingNet) {
           const deltaX = t.clientX - lastMousePos.x;
           const deltaY = t.clientY - lastMousePos.y;
-          netRotations[clampedIndex].targetRotY += deltaX * 0.00018;
-          netRotations[clampedIndex].targetRotX += deltaY * 0.00018;
+          netRotations[clampedIndex].targetRotY += deltaX * 0.018;
+          netRotations[clampedIndex].targetRotX += deltaY * 0.018;
           lastMousePos = { x: t.clientX, y: t.clientY };
         }
       }
