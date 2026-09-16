@@ -1,0 +1,53 @@
+export const projects = [
+  {
+    id: 'parivahan-vision',
+    title: 'Parivahan Vision',
+    tagline: 'A computer-vision pipeline that watches live traffic and flags violations as they happen.',
+    description:
+      'Detects overspeeding, signal jumping, illegal parking, and lane violations from video, then automatically logs evidence and number plates into a centralized dashboard for review.',
+    tech: ['Python', 'YOLO', 'OpenCV', 'TensorFlow', 'TypeScript'],
+    year: '2026',
+    repo: 'https://github.com/veerwanjari/ParivahanVision',
+    demo: 'https://parivahan-vision.vercel.app/',
+    featured: true,
+    frame: 'accent',
+  },
+  {
+    id: 'prakriti-connect',
+    title: 'Prakriti Connect',
+    tagline: 'A MERN platform connecting people to environmental events near them.',
+    description:
+      'Volunteer registration, participation tracking, role-based access, real-time notifications, and analytics dashboards for organizers running community clean-ups and drives.',
+    tech: ['React', 'Node.js', 'Express', 'MongoDB'],
+    year: '2025',
+    repo: 'https://github.com/veerwanjari/PrakritiConnect',
+    demo: 'https://prakriti-connect-836n.vercel.app',
+    featured: false,
+    frame: 'default',
+  },
+  {
+    id: 'fitflex',
+    title: 'FitFlex',
+    tagline: 'A gym & fitness site with its own dark, lime-accented design system.',
+    description:
+      'Fully responsive marketing site with a reusable component library and an animated statistics counter, shipped to production on Vercel.',
+    tech: ['React', 'Vite', 'React Router'],
+    year: '2024',
+    repo: 'https://github.com/veerwanjari/FitFlex',
+    demo: 'https://fit-flex-eight.vercel.app',
+    featured: false,
+    frame: 'default',
+  },
+  {
+    id: 'simplechatbot',
+    title: 'Simple Chatbot',
+    tagline: 'A lightweight, framework-free conversational UI experiment.',
+    description: 'A minimal chat interface built to explore interaction patterns before reaching for a framework.',
+    tech: ['JavaScript', 'CSS', 'HTML'],
+    year: '2025',
+    repo: 'https://github.com/veerwanjari/simplechatbot',
+    demo: 'https://simplechatbot-rho.vercel.app',
+    featured: false,
+    frame: 'default',
+  },
+]
