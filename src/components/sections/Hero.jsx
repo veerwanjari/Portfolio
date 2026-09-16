@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
-import { ArrowDownToLine, ArrowRight, ChevronDown } from 'lucide-react'
+import { ArrowDownToLine, ArrowRight } from 'lucide-react'
 import MagneticButton from '@/components/ui/MagneticButton'
 import { profile } from '@/data/profile'
 import { useGithubStats } from '@/hooks'
@@ -158,8 +158,6 @@ export default function Hero({ ready }) {
         className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 text-ink-faint transition-colors hover:text-ink focus-visible:outline-none md:flex"
         aria-label="Scroll to About section"
       >
-        <span className="font-mono text-[0.6875rem]">Scroll</span>
-        <ChevronDown className="h-4 w-4 animate-bounce" />
       </motion.button>
     </section>
   )
