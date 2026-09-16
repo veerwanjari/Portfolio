@@ -61,11 +61,7 @@ export default function Navbar() {
     <>
       <header
         className={cn(
-          "fixed inset-x-0 top-0 z-50 transition-[background-color,backdrop-filter,border-color] duration-300",
-          scrolled || menuOpen
-            ? "border-b border-line/60 bg-void/80 backdrop-blur-xl"
-            : "border-b border-transparent",
-        )}
+          "fixed inset-x-0 top-0 z-50 transition-[background-color,backdrop-filter,border-color] duration-300")}
         style={{ paddingTop: "env(safe-area-inset-top)" }}
       >
         <nav className="container-px mx-auto flex h-16 max-w-7xl items-center justify-between md:h-20">
