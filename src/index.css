@@ -57,6 +57,14 @@ body {
   overscroll-behavior-y: none;
 }
 
+/* Text selection disabled everywhere — the custom cursor has no text-select
+   affordance, so leaving selection on just shows a stray I-beam/highlight. */
+body,
+body * {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
 /* Anchored sections stop below the fixed header instead of under it. */
 section[id] {
   scroll-margin-top: calc(var(--nav-h) + 1rem);
